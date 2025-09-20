@@ -1,0 +1,29 @@
+{
+    "abi": [
+        {
+            "stateMutability": "view",
+            "type": "function",
+            "name": "getGasPrice",
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256"
+                }
+            ]
+        },
+        {
+            "stateMutability": "view",
+            "type": "function",
+            "name": "getCaller",
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "address"
+                }
+            ]
+        }
+    ],
+    "bytecode": "0x61005a61000f60003961005a6000f35f3560e01c60026003820660011b61005401601e395f51565b63455259cb811861004c5734610050574860405260206040f35b63ab470f05811861004c5734610050573360405260206040f35b5f5ffd5b5f80fd004c00320018855820e0716057f48abdbccc919a98751ba85c15616d7961d3ebe91b3f50e105346663185a810600a1657679706572830004010035"
+}
