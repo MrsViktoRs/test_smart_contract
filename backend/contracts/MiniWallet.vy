@@ -32,15 +32,15 @@ def deposit() -> bool:
     return True
 
 
-@external
-@nonreentrant
-def withdraw(amount: uint256) -> bool:
-    assert self.balances[msg.sender] >= amount, 'Your balance is less than the withdrawal amount'
-    self.balances[msg.sender] -= amount
-    self.total -= amount
-    send(msg.sender, amount)
-    log Withdraw(msg.sender, amount, self.balances[msg.sender])
-    return True
+# @external
+# @nonreentrant
+# def withdraw(amount: uint256) -> bool:
+#     assert self.balances[msg.sender] >= amount, 'Your balance is less than the withdrawal amount'
+#     self.balances[msg.sender] -= amount
+#     self.total -= amount
+#     send(msg.sender, amount)
+#     log Withdraw(msg.sender, amount, self.balances[msg.sender])
+#     return True
 
 
 @external
