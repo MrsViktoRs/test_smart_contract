@@ -37,7 +37,7 @@ Before you start, make sure that your system has:
 #### a. Installing dependencies Node.js
 Go to the frontend directory:
 ```bash
-  cd frontend
+  cd frontend/reactApp
 ```
 Install the dependencies using npm:
 ```bash
